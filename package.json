@@ -18,7 +18,7 @@
     "build:workflow": "npm run build -w workflow-builder",
     "build:agent": "npm run build -w ai-agent",
     "build:packages": "npm run build:workflow && npm run build:agent && npm run build:studio",
-    "setup": "git submodule update --init --recursive && npm install && npm run build:packages",
+    "setup": "npm install && npm run build:packages",
     "vite:dev": "vite",
     "vite:build": "vite build",
     "electron:dev": "npm run vite:build && electron .",
