@@ -249,11 +249,7 @@ export default function StandaloneShell() {
           <div className="h-14 flex items-center justify-between px-4 sm:px-6 relative">
             {/* Left: Logo */}
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
-                </svg>
-              </div>
+              <img src="/logo.png" alt="Araqs" className="w-8 h-8 rounded-lg object-cover" />
               <span className="text-sm font-bold tracking-tight hidden sm:block">Araqs</span>
             </div>
 
