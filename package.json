@@ -1,7 +1,7 @@
 {
-  "name": "open-generative-ai",
-  "description": "Open-source alternative to Higgsfield AI — AI image, video, cinema and lip sync studio",
-  "homepage": "https://github.com/Anil-matcha/Open-Generative-AI",
+  "name": "araqs",
+  "description": "Araqs — AI image, video, cinema and lip sync studio",
+  "homepage": "https://araqs.ai",
   "private": true,
   "version": "1.0.10",
   "workspaces": [
@@ -29,8 +29,8 @@
   },
   "build": {
     "appId": "ai.generative.open",
-    "productName": "Open Generative AI",
-    "copyright": "Copyright © 2025",
+    "productName": "Araqs",
+    "copyright": "Copyright © 2026 Araqs",
     "directories": {
       "output": "release"
     },
@@ -72,7 +72,7 @@
     "linux": {
       "icon": "public/banner.png",
       "category": "Utility",
-      "maintainer": "Open Generative AI Team",
+      "maintainer": "Araqs Team",
       "extraFiles": [
         {
           "from": "build/linux/apparmor.profile",
